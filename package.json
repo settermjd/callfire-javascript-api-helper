@@ -1,0 +1,35 @@
+{
+  "name": "callfire-javascript-api-helper",
+  "version": "0.0.1",
+  "description": "A simple helper for the Callfire REST API",
+  "author": "Matthew Setter <matthew@maltblue.com>",
+  "contributors": [
+    "Matthew Setter <matthew@matthewsetter.com>"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "lib/callfire.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/settermjd/callfire-javascript-api-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/settermjd/callfire-javascript-api-helper/issues"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "callfire"
+  ],
+  "dependencies": {
+    "querystring": "https://github.com/anodynos/node2web_querystring/tarball/master",
+    "http": "https://github.com/anodynos/node2web_http/tarball/master"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/settermjd/callfire-javascript-api-helper#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
