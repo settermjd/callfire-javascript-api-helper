@@ -155,9 +155,6 @@ var callfire = {
                 });
             }
             var headers = res.headers;
-            console.log("Request is: " + that.options.method);
-            console.log('HTTP/1.1 ' + res.statusCode);
-            console.log('Content-Type: ' + headers['content-type']);
         }).on('error', function(e) {
             console.error(e);
         });
