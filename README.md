@@ -7,7 +7,7 @@ the example code provided.
 
 ## Installation
 
-`npm install callfire-javascript-api-helper --save`
+`npm install git@github.com:settermjd/callfire-javascript-api-helper.git`
 
 ## Usage
 
